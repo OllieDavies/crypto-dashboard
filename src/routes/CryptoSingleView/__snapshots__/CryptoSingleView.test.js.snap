@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CryptoSingleView /> matches snapshot when coin is returned 1`] = `
+<article>
+  <h1>
+    Bitcoin
+  </h1>
+  <div>
+    <p>
+      <strong>
+        Price
+        :
+      </strong>
+       
+      7500 BTC
+    </p>
+  </div>
+  <div>
+    <p>
+      <strong>
+        Market Cap
+        :
+      </strong>
+       
+    </p>
+  </div>
+  <div>
+    <p>
+      <strong>
+        Change
+        :
+      </strong>
+       
+      <span
+        class="text positive"
+      >
+        0.3
+      </span>
+    </p>
+  </div>
+  <details
+    open=""
+  >
+    <summary>
+      Coin Description
+    </summary>
+    <div>
+      <p>
+        Example description
+      </p>
+    </div>
+  </details>
+</article>
+`;
+
+exports[`<CryptoSingleView /> matches snapshot when error is returned 1`] = `
+<h1>
+  An error occured
+</h1>
+`;
+
+exports[`<CryptoSingleView /> matches snapshot when first mounted 1`] = `
+<h1>
+  Loading...
+</h1>
+`;

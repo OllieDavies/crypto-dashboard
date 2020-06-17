@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CryptoListItem /> matches snapshot 1`] = `
+<a
+  class="wrapper"
+  data-testid="list-item-link"
+  href="/1"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="nameContainer"
+    >
+      <h4
+        class="name"
+      >
+        Bitcoin
+      </h4>
+      <p
+        class="price"
+      >
+        1000
+         
+        BTC
+      </p>
+    </div>
+    <div
+      class="changeContainer"
+    >
+      <span
+        class="text positive"
+      >
+        0.1
+      </span>
+    </div>
+  </div>
+</a>
+`;

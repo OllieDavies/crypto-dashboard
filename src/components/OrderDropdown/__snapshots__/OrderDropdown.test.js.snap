@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDropdown /> matches snapshot 1`] = `
+<select
+  class="select"
+  data-testid="orderdropdownSelect"
+>
+  <option
+    value="asc"
+  >
+    High to Low
+  </option>
+  <option
+    value="desc"
+  >
+    Low to High
+  </option>
+</select>
+`;

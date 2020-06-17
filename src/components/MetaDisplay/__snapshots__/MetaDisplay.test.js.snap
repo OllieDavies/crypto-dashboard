@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MetaDisplay /> matches snapshot with name and children props 1`] = `
+<div>
+  <p>
+    <strong>
+      Name
+      :
+    </strong>
+     
+    <strong>
+      Child
+    </strong>
+  </p>
+</div>
+`;
+
+exports[`<MetaDisplay /> matches snapshot with name and value props 1`] = `
+<div>
+  <p>
+    <strong>
+      Name
+      :
+    </strong>
+     
+    Value
+  </p>
+</div>
+`;

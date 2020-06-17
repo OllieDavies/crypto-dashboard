@@ -1,0 +1,12 @@
+.headingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  flex: 1;
+}
+
+.dropdown {
+  text-align: right;
+}
